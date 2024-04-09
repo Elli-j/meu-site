@@ -1,0 +1,38 @@
+body { 
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoF26vbLtk0RS84vRf-UqgUh5zSEZn04pcTSoSfAZooEJ_6ZylHEWf4A7m&s=10");
+    background-repeat: no-repeat no-repeat; 
+    background-size: 1400px;
+    font-family: 'Arial', sans-serif; 
+    margin: 0;
+    padding: 0;
+  }
+  .header { 
+    background-color: #f2cfd4; 
+    padding: 20px; 
+    text-align: center;
+  }
+  .header h1 { 
+    margin: 0; 
+  }
+  .portfolio {
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+  .card {
+    margin: 10px;  
+    background-color: rgba(148, 63, 141, 0.562);  
+    container: blur(45);
+    transition: 0.3s; 
+    width: 300px; 
+  }
+  .card:hover { 
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .container { 
+    padding: 2px 16px;
+  }
+  img{
+    border-radius: 200px;
+  }
